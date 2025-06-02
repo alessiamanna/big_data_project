@@ -3,7 +3,7 @@ from faker import Faker
 from huggingface_hub import InferenceClient
 
 fake = Faker("it_IT")
-client = InferenceClient(model="google/gemma-2b-it", token="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")
+client = InferenceClient(model="google/gemma-2b-it", token="hf_token")
 
 SINTOMI = [
     "dolore toracico", "febbre alta", "cefalea", "dispnea", "vertigini", "nausea", "dolore addominale", "sincope", "frattura", "dolore al braccio", "vomito", "collasso", "tachicardia"
