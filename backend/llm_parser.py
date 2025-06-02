@@ -47,7 +47,7 @@ def extract_json_from_transcription(transcription: str) -> dict:
     # Client API Hugging Face
     client = InferenceClient(
         model="google/gemma-2b-it",
-        token="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"
+        token="hf_token"
     )
 
     try:
